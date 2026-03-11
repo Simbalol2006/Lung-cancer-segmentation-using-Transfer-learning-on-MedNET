@@ -1,0 +1,47 @@
+nohup: ignoring input
+
+--- CLUSTER STATUS ---
+Total GPUs: 3
+Warning: Removed broken patient LIDC-IDRI-0965. Remaining: 874
+
+--- CONFIGURATION ---
+Batch Size: 48 (across 4 GPUs)
+Learning Rate: 0.0005
+Training on 699 samples, Validating on 87
+/home/bharadhwaj/LIDC_PROJECT/src/model_lib.py:173: UserWarning: nn.init.kaiming_normal is now deprecated in favor of nn.init.kaiming_normal_.
+  m.weight = nn.init.kaiming_normal(m.weight, mode='fan_out')
+    [+] Resuming from checkpoint: checkpoints/best_model_4gpu.pth
+
+--- TRAINING START ---
+Epoch [1/50] Batch 0/15 Loss: 1.0000
+==> EPOCH 1 DONE | Loss: 1.0000 | Val Dice: 0.0000
+    [+] Saved Best Model (Dice: 0.0000)
+Epoch [2/50] Batch 0/15 Loss: 1.0000
+==> EPOCH 2 DONE | Loss: 1.0000 | Val Dice: 0.0000
+Epoch [3/50] Batch 0/15 Loss: 1.0000
+==> EPOCH 3 DONE | Loss: 1.0000 | Val Dice: 0.0000
+Epoch [4/50] Batch 0/15 Loss: 1.0000
+==> EPOCH 4 DONE | Loss: 1.0000 | Val Dice: 0.0000
+Epoch [5/50] Batch 0/15 Loss: 1.0000
+==> EPOCH 5 DONE | Loss: 1.0000 | Val Dice: 0.0000
+Epoch [6/50] Batch 0/15 Loss: 1.0000
+==> EPOCH 6 DONE | Loss: 1.0000 | Val Dice: 0.0000
+Epoch [7/50] Batch 0/15 Loss: 1.0000
+==> EPOCH 7 DONE | Loss: 1.0000 | Val Dice: 0.0000
+Epoch [8/50] Batch 0/15 Loss: 1.0000
+==> EPOCH 8 DONE | Loss: 1.0000 | Val Dice: 0.0000
+Epoch [9/50] Batch 0/15 Loss: 1.0000
+==> EPOCH 9 DONE | Loss: 1.0000 | Val Dice: 0.0000
+Epoch [10/50] Batch 0/15 Loss: 1.0000
+==> EPOCH 10 DONE | Loss: 1.0000 | Val Dice: 0.0000
+Epoch [11/50] Batch 0/15 Loss: 1.0000
+==> EPOCH 11 DONE | Loss: 1.0000 | Val Dice: 0.0000
+Epoch [12/50] Batch 0/15 Loss: 1.0000
+==> EPOCH 12 DONE | Loss: 1.0000 | Val Dice: 0.0000
+Epoch [13/50] Batch 0/15 Loss: 1.0000
+==> EPOCH 13 DONE | Loss: 1.0000 | Val Dice: 0.0000
+Epoch [14/50] Batch 0/15 Loss: 1.0000
+==> EPOCH 14 DONE | Loss: 1.0000 | Val Dice: 0.0000
+Epoch [15/50] Batch 0/15 Loss: 1.0000
+==> EPOCH 15 DONE | Loss: 1.0000 | Val Dice: 0.0000
+Epoch [16/50] Batch 0/15 Loss: 1.0000

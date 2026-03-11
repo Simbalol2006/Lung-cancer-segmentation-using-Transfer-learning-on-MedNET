@@ -1,0 +1,122 @@
+nohup: ignoring input
+
+--- CLUSTER STATUS ---
+Total GPUs: 4
+Warning: Removed broken patient LIDC-IDRI-0965. Remaining: 874
+
+--- CONFIGURATION ---
+Batch Size: 48 (across 4 GPUs)
+Learning Rate: 0.0005
+Training on 699 samples, Validating on 87
+/home/bharadhwaj/LIDC_PROJECT/src/model_lib.py:173: UserWarning: nn.init.kaiming_normal is now deprecated in favor of nn.init.kaiming_normal_.
+  m.weight = nn.init.kaiming_normal(m.weight, mode='fan_out')
+    [+] Resuming from checkpoint: checkpoints/best_model_4gpu.pth
+
+--- TRAINING START ---
+Epoch [1/50] Batch 0/15 Loss: 0.9997
+==> EPOCH 1 DONE | Loss: 0.9953 | Val Dice: 0.0220
+    [+] Saved Best Model (Dice: 0.0220)
+Epoch [2/50] Batch 0/15 Loss: 0.9902
+==> EPOCH 2 DONE | Loss: 0.9932 | Val Dice: 0.0121
+Epoch [3/50] Batch 0/15 Loss: 0.9925
+==> EPOCH 3 DONE | Loss: 0.9935 | Val Dice: 0.0143
+Epoch [4/50] Batch 0/15 Loss: 0.9920
+==> EPOCH 4 DONE | Loss: 0.9932 | Val Dice: 0.0139
+Epoch [5/50] Batch 0/15 Loss: 0.9899
+==> EPOCH 5 DONE | Loss: 0.9919 | Val Dice: 0.0165
+Epoch [6/50] Batch 0/15 Loss: 0.9922
+==> EPOCH 6 DONE | Loss: 0.9915 | Val Dice: 0.0109
+Epoch [7/50] Batch 0/15 Loss: 0.9926
+==> EPOCH 7 DONE | Loss: 0.9918 | Val Dice: 0.0117
+Epoch [8/50] Batch 0/15 Loss: 0.9951
+==> EPOCH 8 DONE | Loss: 0.9916 | Val Dice: 0.0166
+Epoch [9/50] Batch 0/15 Loss: 0.9920
+==> EPOCH 9 DONE | Loss: 0.9924 | Val Dice: 0.0147
+Epoch [10/50] Batch 0/15 Loss: 0.9837
+==> EPOCH 10 DONE | Loss: 0.9913 | Val Dice: 0.0144
+Epoch [11/50] Batch 0/15 Loss: 0.9928
+==> EPOCH 11 DONE | Loss: 0.9918 | Val Dice: 0.0218
+Epoch [12/50] Batch 0/15 Loss: 0.9927
+==> EPOCH 12 DONE | Loss: 0.9935 | Val Dice: 0.0144
+Epoch [13/50] Batch 0/15 Loss: 0.9905
+==> EPOCH 13 DONE | Loss: 0.9914 | Val Dice: 0.0150
+Epoch [14/50] Batch 0/15 Loss: 0.9968
+==> EPOCH 14 DONE | Loss: 0.9915 | Val Dice: 0.0215
+Epoch [15/50] Batch 0/15 Loss: 0.9942
+==> EPOCH 15 DONE | Loss: 0.9931 | Val Dice: 0.0125
+Epoch [16/50] Batch 0/15 Loss: 0.9916
+==> EPOCH 16 DONE | Loss: 0.9915 | Val Dice: 0.0246
+    [+] Saved Best Model (Dice: 0.0246)
+Epoch [17/50] Batch 0/15 Loss: 0.9956
+==> EPOCH 17 DONE | Loss: 0.9919 | Val Dice: 0.0168
+Epoch [18/50] Batch 0/15 Loss: 0.9936
+==> EPOCH 18 DONE | Loss: 0.9926 | Val Dice: 0.0084
+Epoch [19/50] Batch 0/15 Loss: 0.9934
+==> EPOCH 19 DONE | Loss: 0.9922 | Val Dice: 0.0135
+Epoch [20/50] Batch 0/15 Loss: 0.9898
+==> EPOCH 20 DONE | Loss: 0.9920 | Val Dice: 0.0152
+Epoch [21/50] Batch 0/15 Loss: 0.9902
+==> EPOCH 21 DONE | Loss: 0.9921 | Val Dice: 0.0293
+    [+] Saved Best Model (Dice: 0.0293)
+Epoch [22/50] Batch 0/15 Loss: 0.9939
+==> EPOCH 22 DONE | Loss: 0.9915 | Val Dice: 0.0127
+Epoch [23/50] Batch 0/15 Loss: 0.9964
+==> EPOCH 23 DONE | Loss: 0.9931 | Val Dice: 0.0228
+Epoch [24/50] Batch 0/15 Loss: 0.9848
+==> EPOCH 24 DONE | Loss: 0.9916 | Val Dice: 0.0090
+Epoch [25/50] Batch 0/15 Loss: 0.9908
+==> EPOCH 25 DONE | Loss: 0.9929 | Val Dice: 0.0360
+    [+] Saved Best Model (Dice: 0.0360)
+Epoch [26/50] Batch 0/15 Loss: 0.9931
+==> EPOCH 26 DONE | Loss: 0.9938 | Val Dice: 0.0159
+Epoch [27/50] Batch 0/15 Loss: 0.9983
+==> EPOCH 27 DONE | Loss: 0.9925 | Val Dice: 0.0265
+Epoch [28/50] Batch 0/15 Loss: 0.9944
+==> EPOCH 28 DONE | Loss: 0.9924 | Val Dice: 0.0203
+Epoch [29/50] Batch 0/15 Loss: 0.9940
+==> EPOCH 29 DONE | Loss: 0.9925 | Val Dice: 0.0200
+Epoch [30/50] Batch 0/15 Loss: 0.9874
+==> EPOCH 30 DONE | Loss: 0.9924 | Val Dice: 0.0236
+Epoch [31/50] Batch 0/15 Loss: 0.9898
+==> EPOCH 31 DONE | Loss: 0.9925 | Val Dice: 0.0291
+Epoch [32/50] Batch 0/15 Loss: 0.9882
+==> EPOCH 32 DONE | Loss: 0.9911 | Val Dice: 0.0172
+Epoch [33/50] Batch 0/15 Loss: 0.9873
+==> EPOCH 33 DONE | Loss: 0.9922 | Val Dice: 0.0119
+Epoch [34/50] Batch 0/15 Loss: 0.9911
+==> EPOCH 34 DONE | Loss: 0.9923 | Val Dice: 0.0157
+Epoch [35/50] Batch 0/15 Loss: 0.9969
+==> EPOCH 35 DONE | Loss: 0.9926 | Val Dice: 0.0205
+Epoch [36/50] Batch 0/15 Loss: 0.9904
+==> EPOCH 36 DONE | Loss: 0.9921 | Val Dice: 0.0174
+Epoch [37/50] Batch 0/15 Loss: 0.9903
+==> EPOCH 37 DONE | Loss: 0.9909 | Val Dice: 0.0257
+Epoch [38/50] Batch 0/15 Loss: 0.9875
+==> EPOCH 38 DONE | Loss: 0.9931 | Val Dice: 0.0163
+Epoch [39/50] Batch 0/15 Loss: 0.9968
+==> EPOCH 39 DONE | Loss: 0.9922 | Val Dice: 0.0187
+Epoch [40/50] Batch 0/15 Loss: 0.9939
+==> EPOCH 40 DONE | Loss: 0.9927 | Val Dice: 0.0196
+Epoch [41/50] Batch 0/15 Loss: 0.9960
+==> EPOCH 41 DONE | Loss: 0.9928 | Val Dice: 0.0249
+Epoch [42/50] Batch 0/15 Loss: 0.9986
+==> EPOCH 42 DONE | Loss: 0.9921 | Val Dice: 0.0235
+Epoch [43/50] Batch 0/15 Loss: 0.9918
+==> EPOCH 43 DONE | Loss: 0.9906 | Val Dice: 0.0228
+Epoch [44/50] Batch 0/15 Loss: 0.9961
+==> EPOCH 44 DONE | Loss: 0.9919 | Val Dice: 0.0310
+Epoch [45/50] Batch 0/15 Loss: 0.9897
+==> EPOCH 45 DONE | Loss: 0.9913 | Val Dice: 0.0281
+Epoch [46/50] Batch 0/15 Loss: 0.9894
+==> EPOCH 46 DONE | Loss: 0.9918 | Val Dice: 0.0273
+Epoch [47/50] Batch 0/15 Loss: 0.9888
+==> EPOCH 47 DONE | Loss: 0.9926 | Val Dice: 0.0135
+Epoch [48/50] Batch 0/15 Loss: 0.9956
+==> EPOCH 48 DONE | Loss: 0.9920 | Val Dice: 0.0160
+Epoch [49/50] Batch 0/15 Loss: 0.9939
+==> EPOCH 49 DONE | Loss: 0.9929 | Val Dice: 0.0264
+Epoch [50/50] Batch 0/15 Loss: 0.9935
+==> EPOCH 50 DONE | Loss: 0.9915 | Val Dice: 0.0312
+
+--- FINAL TEST ON HELD-OUT DATA ---
+FINAL TEST RESULT (Dice Score): 0.0225

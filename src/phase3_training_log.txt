@@ -1,0 +1,174 @@
+nohup: ignoring input
+
+--- CLUSTER STATUS ---
+Total GPUs: 4
+Warning: Removed broken patient LIDC-IDRI-0965. Remaining: 874
+
+--- CONFIGURATION ---
+Batch Size: 64
+Loss Function: Focal (0.3) + Dice (0.7)
+Sampling Strategy: 50% Nodule Centered / 50% Random
+    [+] Loading Med3D (23-Dataset) Universal Features from: ../pretrain/resnet_18_23dataset.pth
+
+--- PHASE 3 TRAINING START ---
+Epoch [1/50] Batch 0/11 Loss: 0.7236
+Epoch [1/50] Batch 10/11 Loss: 0.7111
+==> EPOCH 1 DONE | Loss: 0.7168 | Val Dice: 0.0001
+    [+] Saved Best Model (Dice: 0.0001)
+Epoch [2/50] Batch 0/11 Loss: 0.7110
+Epoch [2/50] Batch 10/11 Loss: 0.7003
+==> EPOCH 2 DONE | Loss: 0.7045 | Val Dice: 0.0055
+    [+] Saved Best Model (Dice: 0.0055)
+Epoch [3/50] Batch 0/11 Loss: 0.7031
+Epoch [3/50] Batch 10/11 Loss: 0.6985
+==> EPOCH 3 DONE | Loss: 0.6990 | Val Dice: 0.0000
+Epoch [4/50] Batch 0/11 Loss: 0.7001
+Epoch [4/50] Batch 10/11 Loss: 0.6944
+==> EPOCH 4 DONE | Loss: 0.6953 | Val Dice: 0.0000
+Epoch [5/50] Batch 0/11 Loss: 0.6925
+Epoch [5/50] Batch 10/11 Loss: 0.6953
+==> EPOCH 5 DONE | Loss: 0.6936 | Val Dice: 0.0000
+Epoch [6/50] Batch 0/11 Loss: 0.6940
+Epoch [6/50] Batch 10/11 Loss: 0.6914
+==> EPOCH 6 DONE | Loss: 0.6897 | Val Dice: 0.0000
+Epoch [7/50] Batch 0/11 Loss: 0.6828
+Epoch [7/50] Batch 10/11 Loss: 0.6771
+==> EPOCH 7 DONE | Loss: 0.6834 | Val Dice: 0.0000
+Epoch [8/50] Batch 0/11 Loss: 0.6907
+Epoch [8/50] Batch 10/11 Loss: 0.6520
+==> EPOCH 8 DONE | Loss: 0.6674 | Val Dice: 0.0000
+Epoch 00008: reducing learning rate of group 0 to 2.5000e-04.
+Epoch [9/50] Batch 0/11 Loss: 0.6533
+Epoch [9/50] Batch 10/11 Loss: 0.6511
+==> EPOCH 9 DONE | Loss: 0.6521 | Val Dice: 0.0000
+Epoch [10/50] Batch 0/11 Loss: 0.6558
+Epoch [10/50] Batch 10/11 Loss: 0.5552
+==> EPOCH 10 DONE | Loss: 0.5866 | Val Dice: 0.0000
+Epoch [11/50] Batch 0/11 Loss: 0.5526
+Epoch [11/50] Batch 10/11 Loss: 0.5499
+==> EPOCH 11 DONE | Loss: 0.5651 | Val Dice: 0.0000
+Epoch [12/50] Batch 0/11 Loss: 0.5887
+Epoch [12/50] Batch 10/11 Loss: 0.5614
+==> EPOCH 12 DONE | Loss: 0.5202 | Val Dice: 0.0000
+Epoch [13/50] Batch 0/11 Loss: 0.4506
+Epoch [13/50] Batch 10/11 Loss: 0.6404
+==> EPOCH 13 DONE | Loss: 0.4958 | Val Dice: 0.0000
+Epoch [14/50] Batch 0/11 Loss: 0.4607
+Epoch [14/50] Batch 10/11 Loss: 0.5225
+==> EPOCH 14 DONE | Loss: 0.4914 | Val Dice: 0.0000
+Epoch 00014: reducing learning rate of group 0 to 1.2500e-04.
+Epoch [15/50] Batch 0/11 Loss: 0.4764
+Epoch [15/50] Batch 10/11 Loss: 0.4641
+==> EPOCH 15 DONE | Loss: 0.4821 | Val Dice: 0.0000
+Epoch [16/50] Batch 0/11 Loss: 0.4541
+Epoch [16/50] Batch 10/11 Loss: 0.4312
+==> EPOCH 16 DONE | Loss: 0.4702 | Val Dice: 0.0000
+Epoch [17/50] Batch 0/11 Loss: 0.4339
+Epoch [17/50] Batch 10/11 Loss: 0.4476
+==> EPOCH 17 DONE | Loss: 0.4533 | Val Dice: 0.0000
+Epoch [18/50] Batch 0/11 Loss: 0.4657
+Epoch [18/50] Batch 10/11 Loss: 0.4728
+==> EPOCH 18 DONE | Loss: 0.4601 | Val Dice: 0.0000
+Epoch [19/50] Batch 0/11 Loss: 0.4565
+Epoch [19/50] Batch 10/11 Loss: 0.3896
+==> EPOCH 19 DONE | Loss: 0.4510 | Val Dice: 0.0000
+Epoch [20/50] Batch 0/11 Loss: 0.4596
+Epoch [20/50] Batch 10/11 Loss: 0.4301
+==> EPOCH 20 DONE | Loss: 0.4523 | Val Dice: 0.3633
+    [+] Saved Best Model (Dice: 0.3633)
+Epoch [21/50] Batch 0/11 Loss: 0.4366
+Epoch [21/50] Batch 10/11 Loss: 0.4593
+==> EPOCH 21 DONE | Loss: 0.4568 | Val Dice: 0.6181
+    [+] Saved Best Model (Dice: 0.6181)
+Epoch [22/50] Batch 0/11 Loss: 0.3782
+Epoch [22/50] Batch 10/11 Loss: 0.4267
+==> EPOCH 22 DONE | Loss: 0.4314 | Val Dice: 0.4566
+Epoch [23/50] Batch 0/11 Loss: 0.4540
+Epoch [23/50] Batch 10/11 Loss: 0.4746
+==> EPOCH 23 DONE | Loss: 0.4555 | Val Dice: 0.3802
+Epoch [24/50] Batch 0/11 Loss: 0.4353
+Epoch [24/50] Batch 10/11 Loss: 0.4516
+==> EPOCH 24 DONE | Loss: 0.4386 | Val Dice: 0.4545
+Epoch [25/50] Batch 0/11 Loss: 0.4042
+Epoch [25/50] Batch 10/11 Loss: 0.4423
+==> EPOCH 25 DONE | Loss: 0.4438 | Val Dice: 0.6060
+Epoch [26/50] Batch 0/11 Loss: 0.6282
+Epoch [26/50] Batch 10/11 Loss: 0.4217
+==> EPOCH 26 DONE | Loss: 0.4302 | Val Dice: 0.2912
+Epoch [27/50] Batch 0/11 Loss: 0.4425
+Epoch [27/50] Batch 10/11 Loss: 0.3666
+==> EPOCH 27 DONE | Loss: 0.4413 | Val Dice: 0.5255
+Epoch 00027: reducing learning rate of group 0 to 6.2500e-05.
+Epoch [28/50] Batch 0/11 Loss: 0.3999
+Epoch [28/50] Batch 10/11 Loss: 0.4807
+==> EPOCH 28 DONE | Loss: 0.4194 | Val Dice: 0.3698
+Epoch [29/50] Batch 0/11 Loss: 0.5067
+Epoch [29/50] Batch 10/11 Loss: 0.3681
+==> EPOCH 29 DONE | Loss: 0.4159 | Val Dice: 0.3642
+Epoch [30/50] Batch 0/11 Loss: 0.5181
+Epoch [30/50] Batch 10/11 Loss: 0.4789
+==> EPOCH 30 DONE | Loss: 0.4252 | Val Dice: 0.6424
+    [+] Saved Best Model (Dice: 0.6424)
+Epoch [31/50] Batch 0/11 Loss: 0.3821
+Epoch [31/50] Batch 10/11 Loss: 0.4703
+==> EPOCH 31 DONE | Loss: 0.4032 | Val Dice: 0.6249
+Epoch [32/50] Batch 0/11 Loss: 0.4100
+Epoch [32/50] Batch 10/11 Loss: 0.4940
+==> EPOCH 32 DONE | Loss: 0.4119 | Val Dice: 0.5292
+Epoch [33/50] Batch 0/11 Loss: 0.5514
+Epoch [33/50] Batch 10/11 Loss: 0.4024
+==> EPOCH 33 DONE | Loss: 0.4413 | Val Dice: 0.7087
+    [+] Saved Best Model (Dice: 0.7087)
+Epoch [34/50] Batch 0/11 Loss: 0.3488
+Epoch [34/50] Batch 10/11 Loss: 0.3580
+==> EPOCH 34 DONE | Loss: 0.4051 | Val Dice: 0.4774
+Epoch [35/50] Batch 0/11 Loss: 0.4397
+Epoch [35/50] Batch 10/11 Loss: 0.4060
+==> EPOCH 35 DONE | Loss: 0.4210 | Val Dice: 0.6076
+Epoch [36/50] Batch 0/11 Loss: 0.4047
+Epoch [36/50] Batch 10/11 Loss: 0.4088
+==> EPOCH 36 DONE | Loss: 0.4264 | Val Dice: 0.4945
+Epoch [37/50] Batch 0/11 Loss: 0.3802
+Epoch [37/50] Batch 10/11 Loss: 0.4336
+==> EPOCH 37 DONE | Loss: 0.3878 | Val Dice: 0.6007
+Epoch [38/50] Batch 0/11 Loss: 0.3834
+Epoch [38/50] Batch 10/11 Loss: 0.4421
+==> EPOCH 38 DONE | Loss: 0.4180 | Val Dice: 0.6206
+Epoch [39/50] Batch 0/11 Loss: 0.4102
+Epoch [39/50] Batch 10/11 Loss: 0.5204
+==> EPOCH 39 DONE | Loss: 0.4212 | Val Dice: 0.2883
+Epoch 00039: reducing learning rate of group 0 to 3.1250e-05.
+Epoch [40/50] Batch 0/11 Loss: 0.3815
+Epoch [40/50] Batch 10/11 Loss: 0.4870
+==> EPOCH 40 DONE | Loss: 0.4018 | Val Dice: 0.5319
+Epoch [41/50] Batch 0/11 Loss: 0.3490
+Epoch [41/50] Batch 10/11 Loss: 0.3864
+==> EPOCH 41 DONE | Loss: 0.3947 | Val Dice: 0.5963
+Epoch [42/50] Batch 0/11 Loss: 0.3919
+Epoch [42/50] Batch 10/11 Loss: 0.3511
+==> EPOCH 42 DONE | Loss: 0.3924 | Val Dice: 0.5551
+Epoch [43/50] Batch 0/11 Loss: 0.4595
+Epoch [43/50] Batch 10/11 Loss: 0.3354
+==> EPOCH 43 DONE | Loss: 0.3987 | Val Dice: 0.5928
+Epoch [44/50] Batch 0/11 Loss: 0.4074
+Epoch [44/50] Batch 10/11 Loss: 0.3830
+==> EPOCH 44 DONE | Loss: 0.4073 | Val Dice: 0.6352
+Epoch [45/50] Batch 0/11 Loss: 0.3835
+Epoch [45/50] Batch 10/11 Loss: 0.4534
+==> EPOCH 45 DONE | Loss: 0.3902 | Val Dice: 0.2632
+Epoch 00045: reducing learning rate of group 0 to 1.5625e-05.
+Epoch [46/50] Batch 0/11 Loss: 0.5073
+Epoch [46/50] Batch 10/11 Loss: 0.4331
+==> EPOCH 46 DONE | Loss: 0.4029 | Val Dice: 0.5134
+Epoch [47/50] Batch 0/11 Loss: 0.4726
+Epoch [47/50] Batch 10/11 Loss: 0.4200
+==> EPOCH 47 DONE | Loss: 0.4154 | Val Dice: 0.3933
+Epoch [48/50] Batch 0/11 Loss: 0.4991
+Epoch [48/50] Batch 10/11 Loss: 0.3854
+==> EPOCH 48 DONE | Loss: 0.3994 | Val Dice: 0.5697
+Epoch [49/50] Batch 0/11 Loss: 0.5101
+Epoch [49/50] Batch 10/11 Loss: 0.3871
+==> EPOCH 49 DONE | Loss: 0.3981 | Val Dice: 0.3902
+Epoch [50/50] Batch 0/11 Loss: 0.3656
+Epoch [50/50] Batch 10/11 Loss: 0.4614
+==> EPOCH 50 DONE | Loss: 0.3962 | Val Dice: 0.6418
