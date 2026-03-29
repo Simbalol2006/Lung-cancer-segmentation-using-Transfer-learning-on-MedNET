@@ -1,0 +1,16 @@
+certifi==2026.1.4
+charset-normalizer==3.4.4
+idna==3.11
+mkl-service==2.5.2
+mkl_fft @ file:///home/task_176159252575002/conda-bld/mkl_fft_1761592901585/work
+mkl_random @ file:///home/task_176159293813909/conda-bld/mkl_random_1761592952512/work
+numpy==1.26.4
+packaging @ file:///home/task_176104877067765/conda-bld/packaging_1761049113113/work
+pillow==12.1.0
+requests==2.32.5
+scipy @ file:///home/task_175922117955695/conda-bld/scipy_1759221925481/work/dist/scipy-1.15.3-cp310-cp310-linux_x86_64.whl#sha256=3e3aede3ac8e5825c2bfd3c3c70b0a467e1895afeed7002cea1edf0156b79fdb
+torch==1.12.1+cu113
+torchvision==0.13.1+cu113
+tqdm==4.67.3
+typing_extensions==4.15.0
+urllib3==2.6.3
